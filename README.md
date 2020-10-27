@@ -1,8 +1,8 @@
-# Flashing Coreboot on the Thinkpad T420
+# Flashing Coreboot on the ThinkPad T420
 
 I have a more detailed explanation on the process of flashing coreboot on [my website](https://nenadstoisavljevic.xyz/guides/coreboot). This repository is mostly just plain commands for what you would run, I find this easier to follow anyhow.
 
-Please keep in mind that there is always a possibility that you could brick your Thinkpad T420 when trying to flash coreboot. By connecting the Pomona 5250 clip to the BIOS chip, you are essentially connecting an external power supply which could cause a lot of things to go wrong, although it is highly unlikely.
+Please keep in mind that there is always a possibility that you could brick your ThinkPad T420 when trying to flash coreboot. By connecting the Pomona 5250 clip to the BIOS chip, you are essentially connecting an external power supply which could cause a lot of things to go wrong, although it is highly unlikely.
 
 *Be sure to back up your old BIOS so that you can re-flash it if something were to go wrong.*
 
