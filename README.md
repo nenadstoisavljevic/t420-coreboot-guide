@@ -1,6 +1,6 @@
 # Flashing Coreboot on the ThinkPad T420
 
-I have a more detailed explanation on the process of flashing coreboot on [my website](https://nenadstoisavljevic.xyz/guides/coreboot). This repository is mostly just plain commands for what you would run, I find this easier to follow anyhow.
+I have a more detailed explanation on the process of flashing coreboot on [my website](https://nenadstoisavljevic.xyz/articles/coreboot). This repository is mostly just plain commands for what you would run, I find this easier to follow anyhow.
 
 Please keep in mind that there is always a possibility that you could brick your ThinkPad T420 when trying to flash coreboot. By connecting the Pomona 5250 clip to the BIOS chip, you are essentially connecting an external power supply which could cause a lot of things to go wrong, although it is highly unlikely.
 
@@ -172,7 +172,7 @@ Compiling coreboot on the Raspberry Pi will take many hours, so consider copying
 
 #### Configure coreboot
 
-There are ways to compile coreboot without the VGA BIOS firmware, but if you would like to run Windows, SeaBIOS will require it. If you would like to extract it yourself, you can follow [my guide](https://nenadstoisavljevic.xyz/guides/coreboot) or you have the option to use a pre-extracted one instead.
+There are ways to compile coreboot without the VGA BIOS firmware, but if you would like to run Windows, SeaBIOS will require it. If you would like to extract it yourself, you can follow [my guide](https://nenadstoisavljevic.xyz/articles/coreboot) or you have the option to use a pre-extracted one instead.
 
 ```sh
 # Run the following command to download the pre-exracted VGA BIOS firmware.
