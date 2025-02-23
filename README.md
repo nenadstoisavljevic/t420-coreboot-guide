@@ -71,7 +71,7 @@ mkdir -p ~/work/coreboot/3rdparty/blobs/mainboard/lenovo/t420
 #### Build and compile ifdtool
 
 ```sh
-cd ~/work/coreboot/utils/ifdtool
+cd ~/work/coreboot/util/ifdtool
 make
 ```
 
@@ -148,7 +148,7 @@ The `factory1.rom` should not be edited, make sure that you back it up to **MULT
 #### Extract binary blobs with ifdtool
 
 ```sh
-~/work/coreboot/utils/ifdtool/ifdtool -x cleaned.rom
+~/work/coreboot/util/ifdtool/ifdtool -x cleaned.rom
 ```
 
 #### Rename/remove binary blobs
