@@ -170,18 +170,23 @@ cp descriptor.bin me.bin gbe.bin ~/work/coreboot/3rdparty/blobs/mainboard/lenovo
 
 Compiling coreboot on the Raspberry Pi will take many hours, so consider copying the `~/work/coreboot` directory to a faster computer if you are not already using one. A faster machine will significantly reduce the amount of time it will take to build coreboot.
 
-#### Configure coreboot
+#### Download Pre-extracted VGA BIOS
 
 There are ways to compile coreboot without the VGA BIOS firmware, but if you would like to run Windows, SeaBIOS will require it. If you would like to extract it yourself, you can follow [my guide](https://stoisavljevic.com/articles/coreboot) or you have the option to use a pre-extracted one instead.
 
 ```sh
 # Run the following command to download the pre-exracted VGA BIOS firmware.
 wget https://github.com/NenadStoisavljevic/t420-coreboot-guide/raw/master/snb_vbios_2170.rom
+```
 
+#### Configure coreboot
+
+```sh
+# Start configure.
 cd ~/work/coreboot
 make nconfig
 
-# Copy the coreboot configuration down below
+# Copy the coreboot configuration down below.
 General
   -*- Use CMOS for configuration values
   [*] Compress ramstage with LZMA
